@@ -1,9 +1,10 @@
+import navimg from '../assets/navimg.jpg';
 
 const Nav = () => {
 
     return (
         <div className="nav">
-            <h1>Nav</h1>
+            <img className="navimg" src={navimg} alt="butterfly on finger" />
         </div>
     )
 };

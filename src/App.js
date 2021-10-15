@@ -12,7 +12,6 @@ function App() {
   return (
     <Router>
       <div className="App">
-      <h1>Complichic</h1>
         <Nav/>
       <Switch>
         <Route exact path="/">
