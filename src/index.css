@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Parisienne&family=Prociono&display=swap');
 
-
 * {
   margin: 0;
   padding: 0;
@@ -15,7 +14,6 @@
 .App {
   height: 100vh;
   width: 100vw;
-  border: 3px solid hotpink;
 }
 
 
@@ -77,6 +75,54 @@
     max-width: 100%;
   }
 }
+
+/* About */
+
+.about{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.about-header {
+  font-family: Parisienne;
+  color: #FA0CFF;
+  font-size: 96px;
+  font-weight: 400;
+}
+
+
+
+.about span {
+  color: #FA0CFF;
+}
+
+.about-text {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 70%;
+  margin-bottom: 1rem;
+}
+
+.about-text-p {
+  padding: 1rem;
+
+}
+
+.about-text-img {
+  width: 18px;
+  height: 17px;
+}
+
+.about-text span {
+  color: black;
+  font-weight: bold;
+}
+
+
 
 
 
