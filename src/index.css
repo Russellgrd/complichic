@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&family=Prociono&display=swap');
+
 
 * {
   margin: 0;
@@ -13,30 +15,70 @@
 .App {
   height: 100vh;
   width: 100vw;
+  border: 3px solid hotpink;
 }
 
 
 
 /* Nav */
 .nav {
-  width:100%;
-  height: 15rem;
+  height: 20rem;
+  width: 100vw;
+  position: relative;
+}
+
+.navMainBox {
+  height: 100%;
+  width: 100%;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: space-around;
   align-items: center;
-  /* padding: 4rem;
-  background-image:url('./assets/navimg.jpg');
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  border-radius: 100px; */
-  outline: 4px solid orange;
 }
 
 .navimg {
-  height: 100%;
-  max-width: 100%;
+  height: 80%;
+  object-fit: contain;
   border-radius: 25px;
-  object-fit: cover;
-  outline: 2px solid red;
 }
+
+.navButtonBox {
+  display: flex;
+  flex-direction: row;
+  width: 60%;
+  justify-content: space-around;
+}
+
+.navButtonBox-li {
+  list-style: none;
+  background-color: #C598C0;
+  width: 113px;
+  height: 37px;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 37px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.navButtonBox-li-link {
+  text-decoration: none;
+  font-family: 'Prociono', serif;
+  color: black;
+  font-weight: lighter;
+}
+
+@media only screen and (max-width: 1000px) {
+  .navButtonBox {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .navimg {
+    max-width: 100%;
+  }
+}
+
+
+
+
+
