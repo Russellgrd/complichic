@@ -16,7 +16,12 @@
   width: 100vw;
 }
 
-
+h1 {
+  font-family: Parisienne;
+  color: #FA0CFF;
+  font-size: 96px;
+  font-weight: 400;
+}
 
 /* Nav */
 .nav {
@@ -120,6 +125,48 @@
 .about-text span {
   color: black;
   font-weight: bold;
+}
+
+/* Lingerie */
+
+.lingerie {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.lingerie-text {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  width: 70%;
+}
+
+.lingerie-text p {
+  padding: 1rem;
+}
+
+.lingerie-text-image {
+  width: 18px;
+  height: 17px;
+  margin-right: 5px;
+}
+
+.lingerieGallery{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-wrap:wrap;
+  width: 60%;
+  outline: 2px solid hotpink;
+  margin-top: 1rem;
+}
+
+.lingerGallery-img {
+  padding: 2%;
+  width: 25%;
 }
 
 
