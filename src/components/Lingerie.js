@@ -15,7 +15,7 @@ const Lingerie = () => {
             </div>
             <p>At CompliChic we made to order your special pieces cost effective and good value for money.</p>
             <div className="lingerieGallery">
-                { data && data.map((item) => (<img className="lingerGallery-img" src={['lingerie-gallery/' + item.name + ".png" ]} alt="lingerie model"/>)) }
+                { data && data.map((item) => (<img className="lingerGallery-img" src={['lingerie-gallery/' + item.name + ".jpeg" ]} alt="lingerie model"/>)) }
             </div>
         </div>
     )
