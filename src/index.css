@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Parisienne&family=Prociono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
 
 * {
   margin: 0;
@@ -208,6 +209,68 @@ h1 {
 }
 
 .sewingBox-text-p {
+
+}
+
+/* gifts */
+
+
+.gifts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.giftsBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 70%;
+}
+
+.giftsBox-subHeading {
+  font-family: Parisienne;
+  color: #A31E95;
+  -webkit-text-stroke: .5px #000000;
+  font-size: 36px;
+  font-weight: 400;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.giftsBox-text {
+  display: flex;
+  flex-direction: row;
+}
+
+.giftsBox-text-img {
+  width: 18px;
+  height: 17px;
+  margin-right: 5px;
+}
+
+.giftsBox-text-p {
+
+}
+
+
+/* Contact  */
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contactForm {
+  font-family: Quicksand;
+  color: #8E0D62;
+  font-weight: 900;
+  font-size: 18px;
+  min-width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  outline: 2px solid hotpink;
 
 }
 
