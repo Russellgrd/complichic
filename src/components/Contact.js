@@ -21,7 +21,7 @@ const Contact = () => {
         };
         setIsPending(true)
 
-        fetch('abc', {
+        fetch('https://complichic.herokuapp.com/', {
             method:'POST',
             headers: {
                 "Content-Type":"application/json"
@@ -33,7 +33,6 @@ const Contact = () => {
             setIsPending(false);
             history.push('/');
         })
-
         console.log(newRequest);
     }
 
