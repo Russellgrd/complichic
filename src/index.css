@@ -287,6 +287,9 @@ h1 {
 
 .contactForm textarea {
   width: 80%;
+  outline: 2px solid #C598C0;;
+  border: none;
+  resize: none;
 }
 
 .contactForm label {
@@ -309,6 +312,8 @@ h1 {
   padding: 1%;
   border-radius: 50px;
   width: 10rem;
+  border: none;
+  background-color: #C598C0;
 }
 
 
