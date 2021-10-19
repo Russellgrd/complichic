@@ -40,35 +40,36 @@ const Contact = () => {
     return(
         <div className="contact">
             <h1>Contact</h1>
-            <p>Get in touch with us:</p>
+            <p className="contact-text-p">Get in touch with us:</p>
             <form className="contactForm"
                 onSubmit={handleSubmit}
             >
                 <div className="contactForm-group">
-                    <div>
-                        <label>Name</label>
-                        <input
-                        type="text" 
-                        required
-                        value={name}
-                        onChange={(e) => {
-                            setName(e.target.value);
-                        }}
-                        />
-                    </div>
-                    <div>
-                        <label>Email</label>
-                        <input 
-                        type="text"  
-                        required
-                        value={email}
-                        onChange={(e) => {
-                            setEmail(e.target.value);
-                        }}
-                        />
+                    <div className="contactForm-group1">
+                        <div>
+                            <label>Name</label>
+                            <input
+                            type="text" 
+                            required
+                            value={name}
+                            onChange={(e) => {
+                                setName(e.target.value);
+                            }}
+                            />
+                        </div>                          
+                        <div>
+                            <label>Email</label>
+                            <input 
+                            type="text"  
+                            required
+                            value={email}
+                            onChange={(e) => {
+                                setEmail(e.target.value);
+                            }}
+                            />
+                        </div>
                     </div>
                 </div>
-                <div>
                     <label>How can we help?</label>
                     <select
                         value={requestType}
@@ -81,6 +82,7 @@ const Contact = () => {
                         <option value="Gifts">Gifts</option>
                         <option value="Lingerie">Lingerie</option>
                     </select>
+                    <label>Message:</label>
                     <textarea 
                     cols="30" 
                     rows="10"
@@ -90,16 +92,10 @@ const Contact = () => {
                             setRequestBody(e.target.value);
                         }}
                     >
-                    
                     </textarea>
-                </div>
                { !pending &&  <button>Send Message</button> }
                { pending && <button disabled>Submitting....</button> }
             </form>
-            <p>{name}</p>
-            <p>{email}</p>
-            <p>{requestBody}</p>
-            <p>{requestType}</p>
         </div>
     )
 };

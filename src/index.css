@@ -261,8 +261,17 @@ h1 {
   align-items: center;
 }
 
+.contact-text-p {
+  font-family: Quicksand;
+  color: #8E0D62;
+  font-weight: 900;
+  font-size: 18px;
+  margin-bottom: 1rem;
+}
+
 .contactForm {
   font-family: Quicksand;
+  text-align: center;
   color: #8E0D62;
   font-weight: 900;
   font-size: 18px;
@@ -270,11 +279,37 @@ h1 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  outline: 2px solid hotpink;
-
 }
 
+.contactForm input {
+  height: 2rem;
+}
 
+.contactForm textarea {
+  width: 80%;
+}
+
+.contactForm label {
+  padding: 1%;
+}
+
+.contactForm-group1 {
+  display: flex;
+  flex-direction: row;
+}
+
+.contactForm select {
+  width: 10rem;
+  text-align: center;
+  height: 2rem;
+}
+
+.contactForm button {
+  margin: 1%;
+  padding: 1%;
+  border-radius: 50px;
+  width: 10rem;
+}
 
 
 
