@@ -7,6 +7,7 @@ import Gifts from './components/Gifts';
 import Home from './components/Home';
 import Lingerie from './components/Lingerie';
 import Sewing from './components/Sewing';
+import Submitted from './components/Submitted';
 
 function App() {
   return (
@@ -31,6 +32,9 @@ function App() {
         </Route>
         <Route path="/sewing">
           <Sewing />
+        </Route>
+        <Route path="/submitted">
+          <Submitted />
         </Route>
       </Switch>
   

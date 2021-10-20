@@ -108,13 +108,13 @@ h1 {
 .about-text {
   display: flex;
   flex-direction: row;
-  align-items: center;
   width: 70%;
+  margin-top: 2rem;
   margin-bottom: 1rem;
 }
 
 .about-text-p {
-  padding: 1rem;
+
 
 }
 
@@ -140,19 +140,13 @@ h1 {
 .lingerie-text {
   display: flex;
   flex-direction: row;
-  align-items: center;
   text-align: center;
   width: 70%;
-}
-
-.lingerie-text p {
-  padding: 1rem;
 }
 
 .lingerie-text-image {
   width: 18px;
   height: 17px;
-  margin-right: 5px;
 }
 
 .lingerieGallery{
@@ -308,11 +302,53 @@ h1 {
 }
 
 .contactForm button {
+  margin-top: 5px;
   padding: 1%;
   border-radius: 50px;
   width: 10rem;
   border: none;
   background-color: #C598C0;
+  transition: background-color 300ms;
+}
+
+.contactForm button:active {
+  background-color: #fa0bff;
+}
+
+/* submitted page*/
+
+.submitted {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #fff;
+} 
+
+.submitted-text {
+  font-family: Quicksand;
+  color: #8E0D62;
+  font-weight: 900;
+  font-size: 20px;
+}
+
+.submitted-button {
+  margin-top: 1rem;
+  list-style: none;
+  text-decoration: none;
+  background-color: #C598C0;
+  color: black;
+  width: 113px;
+  height: 37px;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 37px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 

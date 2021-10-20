@@ -1,6 +1,7 @@
 import { isPending } from 'q';
 import { useState } from 'react';
 import { useHistory } from 'react-router-dom';
+import isValidEmail from 'pragmatic-email-regex';
 
 const Contact = () => {
 
@@ -10,30 +11,37 @@ const Contact = () => {
     let [requestType, setRequestType] = useState('');
     let [requestBody, setRequestBody] = useState('');
     let [pending, setIsPending] = useState(false);
+    let [formFeedback,setFormFeedback] = useState(false);
 
     let handleSubmit = function(e) {
         e.preventDefault();
-        let newRequest = {
-            name,
-            email,
-            requestType,
-            requestBody
-        };
-        setIsPending(true)
+       
+        if(isValidEmail(email) && requestBody.length > 10) {
+            let newRequest = {
+                name,
+                email,
+                requestType,
+                requestBody
+            };
+            setIsPending(true);
+            fetch('https://complichic.herokuapp.com/', {
+                method:'POST',
+                headers: {
+                    "Content-Type":"application/json"
+                },
+                body: JSON.stringify(newRequest)
+            })
+            .then(() => {
+                console.log('submitted')
+                setIsPending(false);
+                history.push('/submitted');
+            })
+            console.log(newRequest);
+        }
 
-        fetch('https://complichic.herokuapp.com/', {
-            method:'POST',
-            headers: {
-                "Content-Type":"application/json"
-            },
-            body: JSON.stringify(newRequest)
-        })
-        .then(() => {
-            console.log('submitted')
-            setIsPending(false);
-            history.push('/');
-        })
-        console.log(newRequest);
+        else {
+            setFormFeedback(true);
+        }
     }
 
     return(
@@ -92,6 +100,7 @@ const Contact = () => {
                         }}
                     >
                     </textarea>
+                    { formFeedback && <p>please ensure you have completed all fields and use a valid email address</p>}
                { !pending &&  <button>Send Message</button> }
                { pending && <button disabled>Submitting....</button> }
             </form>
