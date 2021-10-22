@@ -8,7 +8,7 @@ const Contact = () => {
     let history = useHistory();
     let [name, setName] = useState('');
     let [email, setEmail] = useState('');
-    let [requestType, setRequestType] = useState('');
+    let [requestType, setRequestType] = useState('Sewing');
     let [requestBody, setRequestBody] = useState('');
     let [pending, setIsPending] = useState(false);
     let [formFeedback,setFormFeedback] = useState(false);
@@ -83,7 +83,7 @@ const Contact = () => {
                         onChange={(e) => {
                             setRequestType(e.target.value);
                         }}
-                    >
+                    >   
                         <option value="Sewing">Sewing</option>
                         <option value="Etching">Etching</option>
                         <option value="Gifts">Gifts</option>

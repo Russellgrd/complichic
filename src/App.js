@@ -8,6 +8,7 @@ import Home from './components/Home';
 import Lingerie from './components/Lingerie';
 import Sewing from './components/Sewing';
 import Submitted from './components/Submitted';
+import Notfound from './components/Notfound';
 
 function App() {
   return (
@@ -35,6 +36,9 @@ function App() {
         </Route>
         <Route path="/submitted">
           <Submitted />
+        </Route>
+        <Route path="*">
+          <Notfound />
         </Route>
       </Switch>
   

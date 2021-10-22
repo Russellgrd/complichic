@@ -368,4 +368,30 @@ h1 {
 }
 
 
+/* not found */
+.notfound {
+  display: flex;
+  height: 10rem;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: Quicksand;
+  color: #8E0D62;
+  font-weight: 900;
+  font-size: 20px;
+}
 
+.notfoundBtn {
+  margin-top: 1rem;
+  list-style: none;
+  text-decoration: none;
+  background-color: #C598C0;
+  color: black;
+  width: 180px;
+  height: 37px;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 37px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-weight: 100;
+}
