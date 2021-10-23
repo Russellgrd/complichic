@@ -53,6 +53,8 @@ h1 {
   justify-content: space-around;
 }
 
+
+
 .navButtonBox-li {
   list-style: none;
   background-color: #C598C0;
@@ -63,6 +65,7 @@ h1 {
   line-height: 37px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+
 
 .navButtonBox-li-link {
   text-decoration: none;
@@ -80,6 +83,33 @@ h1 {
   .navimg {
     max-width: 100%;
   }
+}
+
+@media only screen and (max-width: 800px) {
+
+  .nav {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+  }
+
+  .navButtonBox {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+  .navButtonBox-li {
+    width: 70%;
+    margin: 4px;
+    height: 3rem;
+    line-height: 45px;
+  }
+  
+  .navimg {
+    height: auto;
+  }
+
 }
 
 /* About */
@@ -113,10 +143,12 @@ h1 {
   margin-bottom: 1rem;
 }
 
-.about-text-p {
-
-
+@media only screen and (max-width: 900px) {
+  .about-text {
+    width: 90%;
+  }
 }
+
 
 .about-text-img {
   width: 18px;
@@ -135,6 +167,10 @@ h1 {
   flex-direction: column;
   align-items: center;
 
+}
+
+.lingerie p {
+  text-align: center;
 }
 
 .lingerie-text {
@@ -167,13 +203,18 @@ h1 {
 }
 
 @media only screen and (max-width: 1300px) {
+
+  .lingerie-text {
+    width: 90%;
+  }
+
   .lingerGallery-img {
     width: 30%;
   }
 }
 @media only screen and (max-width: 900px) {
   .lingerGallery-img {
-    width: 40%;
+    width: 80%;
   }
 }
 @media only screen and (max-width: 700px) {
@@ -197,6 +238,13 @@ h1 {
   align-items: center;
   width: 70%;
 }
+
+@media only screen and (max-width: 700px) {
+  .sewingBox {
+    width: 90%;
+  }
+}
+
 
 .sewingBox-subHeading {
   font-family: Parisienne;
@@ -236,6 +284,12 @@ h1 {
   flex-direction: column;
   align-items: center;
   width: 70%;
+}
+
+@media only screen and (max-width: 900px) {
+  .giftsBox {
+    width: 90%;
+  }
 }
 
 .giftsBox-subHeading {

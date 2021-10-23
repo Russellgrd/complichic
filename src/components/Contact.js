@@ -15,7 +15,6 @@ const Contact = () => {
 
     let handleSubmit = function(e) {
         e.preventDefault();
-       
         if(isValidEmail(email) && requestBody.length > 10) {
             let newRequest = {
                 name,
@@ -36,7 +35,6 @@ const Contact = () => {
                 setIsPending(false);
                 history.push('/submitted');
             })
-            console.log(newRequest);
         }
 
         else {

@@ -10,7 +10,7 @@ const Gifts = () => {
                 <div className="giftsBox-text">
                     <img className="giftsBox-text-img" src={butterfly} alt="butterly" />
                     <p className="giftsBox-text-p">
-                        Find the hidden beauty in your old garments or bring your favourite outfit back to life again.  Why do we have to get rid of the old when there is a hidden promise hiding somewhere in the old to reveal the new and also the loyalty of life long joy.
+                        Glass is a complex, brittle and translucent material.  Engraving on glass enhances the beauty to appreciate what nature can give to us.  Passion and care go into engraving images or messages on glass given as a gift to someone special with the appreciation of that person in your life.
                     </p>
                 </div>
             </div>
@@ -19,7 +19,7 @@ const Gifts = () => {
                 <div className="giftsBox-text">
                     <img className="giftsBox-text-img" src={butterfly} alt="butterly" />
                     <p className="giftsBox-text-p">
-                        Find the hidden beauty in your old garments or bring your favourite outfit back to life again.  Why do we have to get rid of the old when there is a hidden promise hiding somewhere in the old to reveal the new and also the loyalty of life long joy.
+                        Not just a gift to give to someone but also to have in your home for daily use.  It brings style onto your dining table or even to display for everyone to appreciate.
                     </p>
                 </div>
             </div>
@@ -28,7 +28,7 @@ const Gifts = () => {
                 <div className="giftsBox-text">
                     <img className="giftsBox-text-img" src={butterfly} alt="butterly" />
                     <p className="giftsBox-text-p">
-                        Find the hidden beauty in your old garments or bring your favourite outfit back to life again.  Why do we have to get rid of the old when there is a hidden promise hiding somewhere in the old to reveal the new and also the loyalty of life long joy.
+                        Wood, the raw product of nature, brings warmth and companionship into your space, with love burned into it creatively to share with others.
                     </p>
                 </div>
             </div>
