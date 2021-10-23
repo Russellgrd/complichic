@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/complichic/static/css/main.3dd3b1ff.chunk.css",
+    "main.css": "/complichic/static/css/main.61cec586.chunk.css",
     "main.js": "/complichic/static/js/main.28b85286.chunk.js",
     "main.js.map": "/complichic/static/js/main.28b85286.chunk.js.map",
     "runtime-main.js": "/complichic/static/js/runtime-main.5a001da5.js",
@@ -10,14 +10,14 @@
     "static/js/3.90b34a23.chunk.js": "/complichic/static/js/3.90b34a23.chunk.js",
     "static/js/3.90b34a23.chunk.js.map": "/complichic/static/js/3.90b34a23.chunk.js.map",
     "index.html": "/complichic/index.html",
-    "static/css/main.3dd3b1ff.chunk.css.map": "/complichic/static/css/main.3dd3b1ff.chunk.css.map",
+    "static/css/main.61cec586.chunk.css.map": "/complichic/static/css/main.61cec586.chunk.css.map",
     "static/js/2.f8847005.chunk.js.LICENSE.txt": "/complichic/static/js/2.f8847005.chunk.js.LICENSE.txt",
     "static/media/navimg.235eeb6f.jpg": "/complichic/static/media/navimg.235eeb6f.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.5a001da5.js",
     "static/js/2.f8847005.chunk.js",
-    "static/css/main.3dd3b1ff.chunk.css",
+    "static/css/main.61cec586.chunk.css",
     "static/js/main.28b85286.chunk.js"
   ]
 }
