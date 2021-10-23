@@ -237,6 +237,7 @@ h1 {
   flex-direction: column;
   align-items: center;
   width: 70%;
+  margin-top:1rem;
 }
 
 @media only screen and (max-width: 700px) {
@@ -245,7 +246,6 @@ h1 {
   }
 }
 
-
 .sewingBox-subHeading {
   font-family: Parisienne;
   color: #A31E95;
@@ -253,6 +253,7 @@ h1 {
   font-size: 36px;
   font-weight: 400;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-bottom: 5px;
 }
 
 .sewingBox-text {
@@ -284,6 +285,7 @@ h1 {
   flex-direction: column;
   align-items: center;
   width: 70%;
+  margin-top: 1rem;
 }
 
 @media only screen and (max-width: 900px) {
@@ -299,6 +301,7 @@ h1 {
   font-size: 36px;
   font-weight: 400;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-bottom: 5px;
 }
 
 .giftsBox-text {
