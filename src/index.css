@@ -160,6 +160,7 @@ h1 {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 100vw;
 
 }
 
@@ -179,40 +180,67 @@ h1 {
   height: 17px;
 }
 
-.lingerieGallery{
-  position: relative;
+.lingerieGallery {
+  width: 90vw;
+}
+
+.lingerieCard {
   display: flex;
+  flex-direction: column;
+  width:20%;
+  height: 40rem;
+  outline: 1px solid #C598C0;
+}
+
+.lingeriePhoto{
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-  flex-wrap:wrap;
-  width: 60%;
-  margin-top: 1rem;
+  align-items: center;
+  background-image: url('./assets/image1.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 80%;
+
 }
 
-.lingerGallery-img {
-  margin: 2px;
-  width: 20%;
-  object-fit: cover;
-  border-radius: 25px;
+.lingeriePhoto-textbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width:100%;
+  height: 20%;
+  background-color: rgba(0, 0, 0, 0.384);
+  color: #FFFFEC;
+  font-family: Quicksand;
+}
+ 
+.lingerieCard-pricebox {
+  padding:5px;
+  display: flex;
+  flex-direction: column;
+  font-family: sans-serif;
+  font-weight: 100;
+  justify-content: center;
+
+
 }
 
-@media only screen and (max-width: 1300px) {
 
-  .lingerie-text {
-    width: 90%;
-  }
 
-  .lingerGallery-img {
-    width: 30%;
-  }
-}
 @media only screen and (max-width: 900px) {
+
+  .lingerieGallery{
+    width: 100%;
+  }
   .lingerGallery-img {
-    width: 80%;
+    width: 90%;
   }
 }
 @media only screen and (max-width: 700px) {
   .lingerGallery-img {
-    width: 100%;
+    width: 90%;
   }
 }
 

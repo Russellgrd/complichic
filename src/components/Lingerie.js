@@ -3,6 +3,7 @@ import data from '../data/data.json';
 import { useEffect, useState } from 'react';
 import Image from '../components/Image';
 import { Link } from 'react-router-dom';    
+import LingerieCard from './LingerieCard';
 
 const Lingerie = () => {
 
@@ -16,7 +17,23 @@ const Lingerie = () => {
             <br />
             <p>At CompliChic we are made to order, so your special pieces are cost effective and good value for money.</p>
             <div className="lingerieGallery">
-                { data && data.map((item) => (<img className="lingerGallery-img" src={['lingerie-gallery/' + item.name + ".jpeg" ]} alt="lingerie model"/>)) }
+                <div className="lingerieCard">
+                    <div className="lingeriePhoto">
+                        <div className="lingeriePhoto-textbox">
+                            <p>Daisy Bra</p>
+                            <p>Lacy Undies</p>
+                        </div>
+                    </div>
+                    <div className="lingerieCard-pricebox">
+                        <p>price per set</p>
+                        <p>small £00, med £00 large</p>
+                        <p>price per bra</p>
+                        <p>small £00 med £00 large £00</p> 
+                        <p>price per undies</p>
+                        <p>small £00 med £00 large £00</p>
+                    </div>
+
+                </div>
             </div>
         </div>
     )
