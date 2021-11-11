@@ -76,11 +76,10 @@ const Lingerie = () => {
                     </div>
                 </div>
 
-
-                <div className="lingerieGallery-box lingerieGallery-daisybra-section">
+                <div className="lingerieGallery-box lingerieGallery-mayabra-section">
                     <div className="lingerieGallery-box-photos">
                         <div className="lingerieCard">
-                            <div className="lingeriePhoto photo1">
+                            <div className="lingeriePhoto photo5">
                                 <div className="lingeriePhoto-textbox">
                                     <p>Daisy Bra</p>
                                     <p>Lacy Undies</p>
@@ -88,7 +87,7 @@ const Lingerie = () => {
                             </div>
                         </div>
                         <div className="lingerieCard">
-                            <div className="lingeriePhoto photo2">
+                            <div className="lingeriePhoto photo6">
                                 <div className="lingeriePhoto-textbox">
                                     <p>Daisy Bra</p>
                                     <p>Lacy Undies</p>
@@ -96,15 +95,7 @@ const Lingerie = () => {
                             </div>
                         </div>
                         <div className="lingerieCard">
-                            <div className="lingeriePhoto photo3">
-                                <div className="lingeriePhoto-textbox">
-                                    <p>Daisy Bra</p>
-                                    <p>Lacy Undies</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="lingerieCard">
-                            <div className="lingeriePhoto photo4">
+                            <div className="lingeriePhoto photo7">
                                 <div className="lingeriePhoto-textbox">
                                     <p>Daisy Bra</p>
                                     <p>Lacy Undies</p>
@@ -136,10 +127,10 @@ const Lingerie = () => {
                     </div>
                 </div>
 
-                <div className="lingerieGallery-box lingerieGallery-daisybra-section">
+                <div className="lingerieGallery-box lingerieGallery-blackbeauty-section">
                     <div className="lingerieGallery-box-photos">
                         <div className="lingerieCard">
-                            <div className="lingeriePhoto photo1">
+                            <div className="lingeriePhoto photo8">
                                 <div className="lingeriePhoto-textbox">
                                     <p>Daisy Bra</p>
                                     <p>Lacy Undies</p>
@@ -147,7 +138,7 @@ const Lingerie = () => {
                             </div>
                         </div>
                         <div className="lingerieCard">
-                            <div className="lingeriePhoto photo2">
+                            <div className="lingeriePhoto photo9">
                                 <div className="lingeriePhoto-textbox">
                                     <p>Daisy Bra</p>
                                     <p>Lacy Undies</p>
@@ -155,15 +146,7 @@ const Lingerie = () => {
                             </div>
                         </div>
                         <div className="lingerieCard">
-                            <div className="lingeriePhoto photo3">
-                                <div className="lingeriePhoto-textbox">
-                                    <p>Daisy Bra</p>
-                                    <p>Lacy Undies</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="lingerieCard">
-                            <div className="lingeriePhoto photo4">
+                            <div className="lingeriePhoto photo10">
                                 <div className="lingeriePhoto-textbox">
                                     <p>Daisy Bra</p>
                                     <p>Lacy Undies</p>
@@ -195,7 +178,64 @@ const Lingerie = () => {
                     </div>
                 </div>
                
-                
+                <div className="lingerieGallery-box lingerieGallery-madalynne-section">
+                    <div className="lingerieGallery-box-photos">
+                        <div className="lingerieCard">
+                            <div className="lingeriePhoto photo11">
+                                <div className="lingeriePhoto-textbox">
+                                    <p>Daisy Bra</p>
+                                    <p>Lacy Undies</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="lingerieCard">
+                            <div className="lingeriePhoto photo12">
+                                <div className="lingeriePhoto-textbox">
+                                    <p>Daisy Bra</p>
+                                    <p>Lacy Undies</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="lingerieCard">
+                            <div className="lingeriePhoto photo13">
+                                <div className="lingeriePhoto-textbox">
+                                    <p>Daisy Bra</p>
+                                    <p>Lacy Undies</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="lingerieCard">
+                            <div className="lingeriePhoto photo14">
+                                <div className="lingeriePhoto-textbox">
+                                    <p>Daisy Bra</p>
+                                    <p>Lacy Undies</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="lingerieGallery-box-textandpricing">
+                        <h3>Daisy Bra</h3>
+                        <p>Wireless for comfort yet getting suppoert where needed.  Unforunately, the colours and fabric/lace will vary due to availability.  The lace undies are super comfy and seamless on the sides.  You can purchase a set or individual items of your choice</p>
+                        <br/ >
+                        <h3>prices per set:</h3>
+                        <p>X small - £25</p>
+                        <p>Small - £25</p>
+                        <p>Medium - £29</p>
+                        <p>Large - £33</p>
+                        <br/>
+                        <h3>Daisy Bra</h3>
+                        <p>X small - £17</p>
+                        <p>Small - £17</p>
+                        <p>Medium - £19</p>
+                        <p>Large - £21</p>
+                        <br/>
+                        <h3>Lacy Undies</h3>
+                        <p>X Small - £8</p>
+                        <p>Small - £8</p>
+                        <p>Medium - £10</p>
+                        <p>Large - £12</p>
+                    </div>
+                </div>
                
                 
                
