@@ -181,15 +181,42 @@ h1 {
 }
 
 .lingerieGallery {
+  display: flex;
+  flex-direction: column;
   width: 90vw;
+}
+
+.lingerieGallery-box {
+  display: flex;
+  flex-direction: column;
+  outline: 3px solid #C598C0;
+
+}
+
+.lingerieGallery-box-textandpricing {
+  font-family: Quicksand;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  align-self: center;
+  margin: 1%;
+  font-size: 12px;
+}
+
+.lingerieGallery-box-photos {
+  display: flex;
+  flex-direction: row;
 }
 
 .lingerieCard {
   display: flex;
   flex-direction: column;
-  width:20%;
+  width:30%;
   height: 40rem;
   outline: 1px solid #C598C0;
+  margin-top: 10px;
 }
 
 .lingeriePhoto{
@@ -197,11 +224,67 @@ h1 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url('./assets/image1.jpeg');
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
   height: 80%;
+}
 
+.photo1 {
+  background-image: url('./assets/image4.jpeg');
+}
+
+.photo2 {
+  background-image: url('./assets/image1.jpeg');
+}
+
+.photo3{
+  background-image: url('./assets/image3.jpeg');
+}
+
+.photo4 {
+  background-image: url('./assets/image2.jpeg');
+}
+
+.photo5 {
+  background-image: url('./assets/image6.jpeg');
+}
+
+.photo6{
+  background-image: url('./assets/image5.jpeg');
+}
+
+.photo7{
+  background-image: url('./assets/image8.jpeg');
+
+}
+
+.photo8 {
+  background-image: url('./assets/image4.jpeg');
+}
+
+.photo9 {
+  background-image: url('./assets/image12.jpeg');
+}
+
+.photo10{
+  background-image: url('./assets/image7.jpeg');
+}
+
+.photo11{
+  background-image: url('./assets/image11.jpeg');
+}
+
+.photo12{
+  background-image: url('./assets/image10.jpeg');
+}
+
+.photo13 {
+  background-image: url('./assets/image13.jpeg');
+}
+
+.photo14{
+  background-image: url('./assets/image14.jpeg');
 }
 
 .lingeriePhoto-textbox {
