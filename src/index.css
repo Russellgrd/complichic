@@ -147,6 +147,7 @@ h1 {
 .about-text-img {
   width: 18px;
   height: 17px;
+  text-align: center;
 }
 
 .about-text span {
