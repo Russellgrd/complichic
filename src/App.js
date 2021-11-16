@@ -10,7 +10,7 @@ import Notfound from './components/Notfound';
 
 function App() {
   return (
-    <Router basename="/">
+    <Router>
       <div className="App">
         <Nav/>
       <Switch>
