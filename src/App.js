@@ -29,7 +29,7 @@ function App() {
         <Route path="/submitted">
           <Submitted />
         </Route>
-        <Route path="*">
+        <Route path="/*">
           <Notfound />
         </Route>
       </Switch>
