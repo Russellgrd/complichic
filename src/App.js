@@ -10,7 +10,7 @@ import Notfound from './components/Notfound';
 
 function App() {
   return (
-    <Router basename="/complichic">
+    <Router>
       <div className="App">
         <Nav/>
       <Switch>
