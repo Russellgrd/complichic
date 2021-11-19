@@ -57,13 +57,13 @@ const Lingerie = () => {
                         <p>Wireless for comfort yet getting support where needed.  Unfortunately, the colours and fabric/lace will vary due to availability.  The lace undies are super comfy and seamless on the sides.  You can purchase a set or individual items of your choice</p>
                         <br/ >
                         <h3>prices per set:</h3>
-                        <p>X small - £25</p>
+                        <p>X Small - £25</p>
                         <p>Small - £25</p>
                         <p>Medium - £29</p>
                         <p>Large - £33</p>
                         <br/>
                         <h3>Daisy Bra</h3>
-                        <p>X small - £17</p>
+                        <p>X Small - £17</p>
                         <p>Small - £17</p>
                         <p>Medium - £19</p>
                         <p>Large - £21</p>
@@ -103,10 +103,10 @@ const Lingerie = () => {
                     </div>
                     <div className="lingerieGallery-box-textandpricing">
                         <h3>Maya Bra</h3>
-                        <p>With the underwire for support and style for comfort.  You have a choice if padded or non-padded, totally your personal preference.</p>
+                        <p>With the underwire for support and style for comfort.  You have a choice of padded or non-padded, totally your personal preference.</p>
                         <p>Only available in size 36A at the moment</p>
                         <br/ >
-                        <p>prices per set £40</p>
+                        <p>Prices per set £40</p>
                         <p>Bra only £32</p>
                         <p>Ivy Panty: between £8 - £12 depending on lace and fabric used and availability.</p>
                         
@@ -150,7 +150,7 @@ const Lingerie = () => {
                         <p>Black Beauty Bra only: from 28B - £27 to 40DD - £42 </p>
                         <br/ >
                         <h3>Franky Panties:</h3>
-                        <p>XX small - £8</p>
+                        <p>XX Small - £8</p>
                         <p>Small - £8</p>
                         <p>Medium - £10</p>
                         <p>Large - £12</p>
@@ -194,30 +194,25 @@ const Lingerie = () => {
                     </div>
                     <div className="lingerieGallery-box-textandpricing">
                         <h3>Madalynne Bra</h3>
-                        <p>Non-Padded with the underwire for softness and comfort fitting</p>
+                        <p>Non-Padded with the underwire for softness and comfort fitting.</p>
                         <p>Comes in sizes: 32A to 42dd - £17 to £38</p>
                         <br/ >
                         <p>prices per set: £25 to £52</p>
                         <p>Classic Panties:</p>
-                        <p>X small - £8</p>
+                        <p>X Small - £8</p>
                         <p>Small - £8</p>
                         <p>Medium - £10</p>
                         <p>Large - £12</p>
                         <p>X-Large - £14</p>
                         <br/>
                         <h3>Esme Panties:</h3>
-                        <p>X small - £9</p>
+                        <p>X Small - £9</p>
                         <p>Small - £9</p>
                         <p>Medium - £11</p>
                         <p>Large - £13</p>
                         <p>X-Large - £15</p>
                     </div>
                 </div>
-               
-                
-               
-               
-
             </div>
         </div>
     )
