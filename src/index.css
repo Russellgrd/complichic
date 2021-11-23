@@ -117,6 +117,7 @@ h1 {
   justify-content: center;
   align-items: center;
   text-align: center;
+  font-family: Quicksand;
 }
 
 .about-header {
@@ -136,6 +137,15 @@ h1 {
   width: 70%;
   margin-top: 2rem;
   margin-bottom: 1rem;
+  font-weight: regular;
+}
+
+.aboutOwner {
+  font-family: Parisienne;
+  font-size: 48px;
+}
+.aboutTitle{
+  font-family: Quicksand;
 }
 
 @media only screen and (max-width: 900px) {
@@ -162,7 +172,7 @@ h1 {
   flex-direction: column;
   align-items: center;
   width: 100vw;
-
+  font-family: Quicksand;
 }
 
 .lingerie p {
