@@ -231,7 +231,7 @@ h1 {
 .lingeriePhoto{
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -302,7 +302,7 @@ h1 {
   justify-content: space-around;
   align-items: center;
   width:100%;
-  height: 20%;
+  height: 15%;
   background-color: rgba(0, 0, 0, 0.384);
   color: #FFFFEC;
   font-family: Quicksand;
