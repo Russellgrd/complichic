@@ -222,6 +222,7 @@ h1 {
 .lingerieCard {
   display: flex;
   flex-direction: column;
+  justify-content: flex-end;
   width:30%;
   height: 40rem;
   outline: 1px solid #C598C0;
