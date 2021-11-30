@@ -217,6 +217,7 @@ h1 {
 .lingerieGallery-box-photos {
   display: flex;
   flex-direction: row;
+  justify-content: center;
 }
 
 .lingerieCard {
@@ -295,6 +296,10 @@ h1 {
 
 .photo14{
   background-image: url('./assets/image14.jpeg');
+}
+
+.photo15{
+  background-image: url('./assets/image15.jpeg');
 }
 
 .lingeriePhoto-textbox {

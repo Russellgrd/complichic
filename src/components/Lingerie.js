@@ -212,6 +212,25 @@ const Lingerie = () => {
                         <p>Large - £13</p>
                         <p>X-Large - £15</p>
                     </div>
+
+                    <div className="lingerieGallery-box lingerieGallery-monica-section">
+                    <div className="lingerieGallery-box-photos">
+                        <div className="lingerieCard">
+                            <div className="lingeriePhoto photo15">
+                                <div className="lingeriePhoto-textbox">
+                                    <p>Padded White Bra</p>
+                                    <p>Monica Panty</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="lingerieGallery-box-textandpricing">
+                        <h3>Padded White Bra and Monica Panty</h3>
+                        <p>Comes in size: 34A £25</p>
+                        <br/ >
+                        <p>Panty size Medium £8</p>
+                    </div>
+                </div>
                 </div>
             </div>
         </div>
