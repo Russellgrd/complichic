@@ -231,6 +231,51 @@ const Lingerie = () => {
                         <p>Panty size Medium £8</p>
                     </div>
                 </div>
+
+                <div className="lingerieGallery-box lingerieGallery-fenway-section">
+                    <div className="lingerieGallery-box-photos">
+                        <div className="lingerieCard">
+                            <div className="lingeriePhoto photo16">
+                                <div className="lingeriePhoto-textbox">
+                                    <p>Fenway Bra</p>
+                                    <p>Franky Panty</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="lingerieCard">
+                            <div className="lingeriePhoto photo17">
+                                <div className="lingeriePhoto-textbox">
+                                    <p>Fenway Bra</p>
+                                    <p>Franky Panty</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="lingerieCard">
+                            <div className="lingeriePhoto photo18">
+                                <div className="lingeriePhoto-textbox">
+                                    <p>Fenway Bra</p>
+                                    <p>Franky Panty</p>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div className="lingerieCard">
+                            <div className="lingeriePhoto photo19">
+                                <div className="lingeriePhoto-textbox">
+                                    <p>Fenway Bra</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="lingerieGallery-box-textandpricing">
+                        <h3>Fenway Bra and Franky Panty</h3>
+                        <p>With padded bottom cup & upper lace.</p>
+                        <p>Comes in size: 34B £28</p>
+                        <br/ >
+                        <p>Panty size Medium £10</p>
+                    </div>
+                </div>
+
                 </div>
             </div>
         </div>

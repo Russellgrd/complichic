@@ -302,6 +302,23 @@ h1 {
   background-image: url('./assets/image15.jpeg');
 }
 
+.photo16{
+  background-image: url('./assets/image16.jpeg');
+}
+
+.photo17{
+  background-image: url('./assets/image17.jpeg');
+}
+
+.photo18{
+  background-image: url('./assets/image18.jpeg');
+}
+
+.photo19{
+  background-image: url('./assets/image19.jpeg');
+}
+
+
 .lingeriePhoto-textbox {
   display: flex;
   flex-direction: column;
