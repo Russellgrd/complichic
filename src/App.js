@@ -7,6 +7,7 @@ import Home from './components/Home';
 import Lingerie from './components/Lingerie';
 import Submitted from './components/Submitted';
 import Notfound from './components/Notfound';
+import Gifts from './components/Gifts';
 
 function App() {
   return (
@@ -25,6 +26,9 @@ function App() {
         </Route>
         <Route path="/lingerie">
           <Lingerie />
+        </Route>
+        <Route path="/gifts">
+          <Gifts />
         </Route>
         <Route path="/submitted">
           <Submitted />
