@@ -11,6 +11,7 @@ const Nav = () => {
                     <li className="navButtonBox-li"><Link className="navButtonBox-li-link" to="/about">About</Link></li>
                     <li className="navButtonBox-li"><Link className="navButtonBox-li-link" to="/lingerie">Lingerie</Link></li>
                     <li className="navButtonBox-li"><Link className="navButtonBox-li-link" to="/gifts">Gifts</Link></li>
+                    <li className="navButtonBox-li"><Link className="navButtonBox-li-link" to="/alterations">Alterations</Link></li>
                     <li className="navButtonBox-li"><Link className="navButtonBox-li-link" to="/contact">Contact us</Link></li>
                 </ul>
             </div>            
